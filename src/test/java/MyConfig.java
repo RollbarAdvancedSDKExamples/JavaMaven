@@ -4,7 +4,7 @@ public class MyConfig {
 
     public static String getMyBuildFile = "build.txt";
     public static final String automationToken = "<token>";
-    public static final String myToken = "ab07f26dc2824f3c93a613c8cb2c4f29"; //   use <post_server_item> token for your rollbar project
+    public static final String myToken = "<post_server_item>"; //   use <post_server_item> token for your rollbar project
     public static final String myENv =  Utils.changeEnv(); // "prod";
     public static double myVersion;
 
