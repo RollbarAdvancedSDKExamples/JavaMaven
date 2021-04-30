@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MyTests" time="6.653" tests="9" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="MyTests" time="4.543" tests="9" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="14"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -12,7 +12,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/14.0.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/ianflanagan/Workspace/Demos/RollbarSDKAdvancedExamples/JavaJenkinsNew/target/surefire/surefirebooter16214702387280492324.jar /Users/ianflanagan/Workspace/Demos/RollbarSDKAdvancedExamples/JavaJenkinsNew/target/surefire 2021-04-30T15-41-40_059-jvmRun1 surefire499028781770893578tmp surefire_03205578028842738361tmp"/>
+    <property name="sun.java.command" value="/Users/ianflanagan/Workspace/Demos/RollbarSDKAdvancedExamples/JavaJenkinsNew/target/surefire/surefirebooter16579798751636336348.jar /Users/ianflanagan/Workspace/Demos/RollbarSDKAdvancedExamples/JavaJenkinsNew/target/surefire 2021-04-30T15-48-24_311-jvmRun1 surefire7347563437519986069tmp surefire_016946017159736093988tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/ianflanagan/Workspace/Demos/RollbarSDKAdvancedExamples/JavaJenkinsNew/target/test-classes:/Users/ianflanagan/Workspace/Demos/RollbarSDKAdvancedExamples/JavaJenkinsNew/target/classes:/Users/ianflanagan/.m2/repository/com/rollbar/rollbar-java/1.7.6/rollbar-java-1.7.6.jar:/Users/ianflanagan/.m2/repository/com/rollbar/rollbar-api/1.7.6/rollbar-api-1.7.6.jar:/Users/ianflanagan/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/ianflanagan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.3.1/junit-jupiter-api-5.3.1.jar:/Users/ianflanagan/.m2/repository/org/apiguardian/apiguardian-api/1.0.0/apiguardian-api-1.0.0.jar:/Users/ianflanagan/.m2/repository/org/opentest4j/opentest4j/1.1.1/opentest4j-1.1.1.jar:/Users/ianflanagan/.m2/repository/org/junit/platform/junit-platform-commons/1.3.1/junit-platform-commons-1.3.1.jar:/Users/ianflanagan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.3.1/junit-jupiter-engine-5.3.1.jar:/Users/ianflanagan/.m2/repository/org/junit/platform/junit-platform-engine/1.3.1/junit-platform-engine-1.3.1.jar:"/>
@@ -28,7 +28,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
-    <property name="surefire.real.class.path" value="/Users/ianflanagan/Workspace/Demos/RollbarSDKAdvancedExamples/JavaJenkinsNew/target/surefire/surefirebooter16214702387280492324.jar"/>
+    <property name="surefire.real.class.path" value="/Users/ianflanagan/Workspace/Demos/RollbarSDKAdvancedExamples/JavaJenkinsNew/target/surefire/surefirebooter16579798751636336348.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="14.0.1+14"/>
@@ -54,16 +54,16 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="58.0"/>
   </properties>
-  <testcase name="generateLotsErrors" classname="MyTests" time="2.182">
-    <system-out><![CDATA[Random String is: 8ssu0o3iox
+  <testcase name="generateLotsErrors" classname="MyTests" time="1.762">
+    <system-out><![CDATA[Random String is: le8rycyn5h
 
 Starting setup() method before test starts
 
-Environment is: DEV
-Original Build Number:1.399999976158142
-New build Number is: 1.5
+Environment is: UAT
+Original Build Number:1.7000000476837158
+New build Number is: 1.8
 File created successfully
-Connecting to rollbar with Token: 404e3cc8d178433693af2f4c051b9fa6 Environment: DEV Code_version: 1.5
+Connecting to rollbar with Token: ab07f26dc2824f3c93a613c8cb2c4f29 Environment: UAT Code_version: 1.8
 calling generateLotsErrors() test now
 ]]></system-out>
     <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
@@ -71,30 +71,30 @@ SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="generateNullPointerError" classname="MyTests" time="0.499">
+  <testcase name="generateNullPointerError" classname="MyTests" time="0.317">
     <system-out><![CDATA[
 Starting setup() method before test starts
 
-Connecting to rollbar with Token: 404e3cc8d178433693af2f4c051b9fa6 Environment: DEV Code_version: 1.5
+Connecting to rollbar with Token: ab07f26dc2824f3c93a613c8cb2c4f29 Environment: UAT Code_version: 1.8
 
 Starting generateNullPointerError() test now
 
 ]]></system-out>
   </testcase>
-  <testcase name="generateRandomError" classname="MyTests" time="0.521">
+  <testcase name="generateRandomError" classname="MyTests" time="0.295">
     <system-out><![CDATA[
 Starting setup() method before test starts
 
-Connecting to rollbar with Token: 404e3cc8d178433693af2f4c051b9fa6 Environment: DEV Code_version: 1.5
-Random String is: 8dnwtjl64j
+Connecting to rollbar with Token: ab07f26dc2824f3c93a613c8cb2c4f29 Environment: UAT Code_version: 1.8
+Random String is: mi3c57h34z
 Calling generateRandomError()  method
 ]]></system-out>
   </testcase>
-  <testcase name="illegalStateException" classname="MyTests" time="0.506">
+  <testcase name="illegalStateException" classname="MyTests" time="0.313">
     <system-out><![CDATA[
 Starting setup() method before test starts
 
-Connecting to rollbar with Token: 404e3cc8d178433693af2f4c051b9fa6 Environment: DEV Code_version: 1.5
+Connecting to rollbar with Token: ab07f26dc2824f3c93a613c8cb2c4f29 Environment: UAT Code_version: 1.8
 Calling illegalStateException()  method
 ]]></system-out>
     <system-err><![CDATA[java.lang.IllegalStateException
@@ -144,11 +144,11 @@ Calling illegalStateException()  method
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]></system-err>
   </testcase>
-  <testcase name="filenotFoundError" classname="MyTests" time="0.511">
+  <testcase name="filenotFoundError" classname="MyTests" time="0.336">
     <system-out><![CDATA[
 Starting setup() method before test starts
 
-Connecting to rollbar with Token: 404e3cc8d178433693af2f4c051b9fa6 Environment: DEV Code_version: 1.5
+Connecting to rollbar with Token: ab07f26dc2824f3c93a613c8cb2c4f29 Environment: UAT Code_version: 1.8
 
 Starting filenotFoundError() test now
 
@@ -203,40 +203,40 @@ Starting filenotFoundError() test now
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
 ]]></system-err>
   </testcase>
-  <testcase name="arrayOutOfBoundsError" classname="MyTests" time="0.619">
+  <testcase name="arrayOutOfBoundsError" classname="MyTests" time="0.343">
     <system-out><![CDATA[
 Starting setup() method before test starts
 
-Connecting to rollbar with Token: 404e3cc8d178433693af2f4c051b9fa6 Environment: DEV Code_version: 1.5
+Connecting to rollbar with Token: ab07f26dc2824f3c93a613c8cb2c4f29 Environment: UAT Code_version: 1.8
 
 Starting arrayOutOfBoundsError() test now
 
 ]]></system-out>
   </testcase>
-  <testcase name="customFields" classname="MyTests" time="0.792">
+  <testcase name="customFields" classname="MyTests" time="0.442">
     <system-out><![CDATA[
 Starting setup() method before test starts
 
-Connecting to rollbar with Token: 404e3cc8d178433693af2f4c051b9fa6 Environment: DEV Code_version: 1.5
+Connecting to rollbar with Token: ab07f26dc2824f3c93a613c8cb2c4f29 Environment: UAT Code_version: 1.8
 calling customFields() test now
 ]]></system-out>
   </testcase>
-  <testcase name="dividebyZeroError" classname="MyTests" time="0.664">
+  <testcase name="dividebyZeroError" classname="MyTests" time="0.456">
     <system-out><![CDATA[
 Starting setup() method before test starts
 
-Connecting to rollbar with Token: 404e3cc8d178433693af2f4c051b9fa6 Environment: DEV Code_version: 1.5
+Connecting to rollbar with Token: ab07f26dc2824f3c93a613c8cb2c4f29 Environment: UAT Code_version: 1.8
 Running dividebyZeroError() test now
 Try loop
 Exception / by zero
 End test method
 ]]></system-out>
   </testcase>
-  <testcase name="checkAPI" classname="MyTests" time="0.338">
+  <testcase name="checkAPI" classname="MyTests" time="0.26">
     <system-out><![CDATA[
 Starting setup() method before test starts
 
-Connecting to rollbar with Token: 404e3cc8d178433693af2f4c051b9fa6 Environment: DEV Code_version: 1.5
+Connecting to rollbar with Token: ab07f26dc2824f3c93a613c8cb2c4f29 Environment: UAT Code_version: 1.8
 Rollbar API is up
 ]]></system-out>
   </testcase>
